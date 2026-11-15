@@ -253,6 +253,19 @@ MISSION PULSE is built upon published NASA and international space agency biomed
 
 ---
 
+## 📦 Open-Source Library Credits & Acknowledgments
+
+MISSION PULSE is engineered using industry-standard open-source technologies:
+- **[React 19](https://react.dev/)** (`react`, `react-dom`): Declarative component lifecycle, reactive clinical state synchronization, and high-performance UI rendering.
+- **[TypeScript 5.8](https://www.typescriptlang.org/)**: Strict compile-time static type safety across mission telemetry schemas, clinical baseline contracts, and event types.
+- **[Vite 8](https://vite.dev/)**: Next-generation lightning-fast frontend dev server and optimized production asset bundler.
+- **[Tailwind CSS v4](https://tailwindcss.com/)**: High-performance utility-first styling engine powering the deep-space Apple visionOS glassmorphism design system.
+- **[Lucide Icons](https://lucide.dev/)**: Clean, high-legibility aerospace and clinical vector iconography (`lucide-react`).
+- **[Three.js](https://threejs.org/)**: WebGL 3D rendering engine for spatial anatomical exploration and depth visualization.
+- **[Puppeteer](https://pptr.dev/)**: Headless Chromium browser automation orchestrating our 5 automated verification suites.
+
+---
+
 ## Local Development & Automated Verification Suites
 
 ### Prerequisites
@@ -319,7 +332,11 @@ To experience the platform's autonomous clinical logic during demonstration, nav
 
 ---
 
-## License & Space Apps Submission
+## 📄 License & Team Credits
 
-Developed by **Team AstroAlert** for the **2026 NASA International Space Apps Challenge**.  
+Developed by **Team AstroAlert** (**Agnes**, **Esha**, **Swanth**, and **Sevinch**) for the **2026 NASA International Space Apps Challenge**.
+
+Released under the permissive **[MIT License](LICENSE)**.  
+*Copyright (c) 2026 Team AstroAlert / Mission Pulse — Agnes, Esha, Swanth, and Sevinch.*  
+
 All mission profiles, synthetic telemetry streams, and clinical decision frameworks are open-source and intended to advance autonomous medical systems for human deep-space exploration.
