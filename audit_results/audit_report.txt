@@ -1,0 +1,97 @@
+
+=== TEST SUITE 1: 1366x768 VIEWPORT CONTAINMENT ===
+1366x768 Window innerHeight: 768px | Body scrollHeight: 768px
+[PASS] Body fits 100% inside viewport with zero vertical scroll.
+Action Cards Bounding Box: {"top":651,"bottom":731,"height":80,"visible":true}
+[PASS] Bottom 3 Action Cards are 100% visible inside viewport (bottom: 731px <= 768px).
+Vital Cards Telemetry & Clipping Check: [
+  {
+    "index": 0,
+    "val": "69",
+    "unit": "Heart Rate",
+    "width": 119.828125,
+    "height": 112,
+    "clipped": false
+  },
+  {
+    "index": 1,
+    "val": "130/86",
+    "unit": "Blood Pressure",
+    "width": 119.828125,
+    "height": 112,
+    "clipped": false
+  },
+  {
+    "index": 2,
+    "val": "105",
+    "unit": "Glucose",
+    "width": 119.84375,
+    "height": 112,
+    "clipped": false
+  },
+  {
+    "index": 3,
+    "val": "37.2",
+    "unit": "Core Temp",
+    "width": 119.828125,
+    "height": 112,
+    "clipped": false
+  },
+  {
+    "index": 4,
+    "val": "5.5",
+    "unit": "Sleep (last 24h)",
+    "width": 119.828125,
+    "height": 112,
+    "clipped": false
+  },
+  {
+    "index": 5,
+    "val": "0.42",
+    "unit": "Radiation",
+    "width": 119.84375,
+    "height": 112,
+    "clipped": false
+  }
+]
+[PASS] All 6 Vital Cards have zero clipping! (116/75 mmHg and 0.42 mSv/d fit cleanly)
+
+=== TEST SUITE 2: 1440x900 RESOLUTION AUDIT ===
+1440x900: innerHeight 900px | scrollHeight 900px
+
+=== TEST SUITE 3: DAY SWITCHING & X-RAY GLOW REACTIVITY ===
+Day 18 State: Crew A-03Real-time Health & Performance✓ NominalDay 1 (Launch & Sync)Day 2 (Nomi... Spline Path length: 452
+Day 19 Workout Spike Diamond present: true
+Day 30 Reference UI 2 Diamonds present: true
+Day 44 Loose Sensor Diamond present: true
+
+=== TEST SUITE 4: CHART METRIC PILLS & TIME PILLS CLICK TEST ===
+Pill [BP] clicked -> Active: true
+Pill [Glucose] clicked -> Active: true
+Pill [Core Temp] clicked -> Active: true
+Pill [Activity] clicked -> Active: true
+Pill [Resting HR] clicked -> Active: true
+Time Range [7d] clicked
+Time Range [60d] clicked
+Time Range [24h] clicked
+
+=== TEST SUITE 5: TOP TABS & SIDEBAR NAVIGATION CLICK TEST ===
+Top Tab [Trends] rendered cleanly
+Top Tab [Events] rendered cleanly
+Top Tab [Analysis] rendered cleanly
+Top Tab [Reports] rendered cleanly
+Top Tab [Live] rendered cleanly
+Sidebar [Vitals & Sensors] rendered cleanly
+Sidebar [Activity & Sleep] rendered cleanly
+Sidebar [Cognitive State] rendered cleanly
+Sidebar [Environment] rendered cleanly
+Sidebar [Events & Alerts] rendered cleanly
+Sidebar [Mission Context] rendered cleanly
+Sidebar [Health Overview] rendered cleanly
+
+=== TEST SUITE 6: PULSE AI & VOICE DRAWER AUDIT ===
+Pulse AI Drawer Open: true
+
+=== CONSOLE ERRORS AUDIT ===
+Total Console Errors: 0
+[PASS] Zero console errors detected during entire adversarial run!

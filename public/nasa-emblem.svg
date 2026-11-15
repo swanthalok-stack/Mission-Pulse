@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="36" height="36">
+  <defs>
+    <radialGradient id="nasa-blue-sphere" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#1A5BC7" />
+      <stop offset="60%" stop-color="#0B3D91" />
+      <stop offset="100%" stop-color="#062761" />
+    </radialGradient>
+  </defs>
+  <!-- NASA Blue Sphere -->
+  <circle cx="60" cy="60" r="56" fill="url(#nasa-blue-sphere)" />
+  <!-- Stars -->
+  <g fill="white" opacity="0.85">
+    <circle cx="34" cy="36" r="1.2" />
+    <circle cx="42" cy="27" r="0.8" />
+    <circle cx="75" cy="32" r="1.2" />
+    <circle cx="89" cy="42" r="0.9" />
+    <circle cx="32" cy="82" r="1.0" />
+    <circle cx="46" cy="92" r="0.8" />
+    <circle cx="74" cy="88" r="1.1" />
+    <circle cx="86" cy="80" r="0.8" />
+    <circle cx="56" cy="23" r="0.9" />
+    <circle cx="92" cy="62" r="1.0" />
+    <circle cx="23" cy="60" r="0.9" />
+    <circle cx="63" cy="98" r="1.0" />
+    <circle cx="48" cy="44" r="0.7" />
+    <circle cx="70" cy="50" r="0.8" />
+  </g>
+  <!-- White Orbit Ellipse -->
+  <ellipse cx="60" cy="60" rx="52" ry="16" fill="none" stroke="white" stroke-width="1.8" transform="rotate(-34 60 60)" opacity="0.9" />
+  <!-- Red Vector Chevron -->
+  <path d="M16 80 L60 28 L67 36 L32 84 Z" fill="#FC3D21" />
+  <path d="M60 28 L104 76 L90 80 L67 36 Z" fill="#FC3D21" />
+  <!-- NASA White Letters -->
+  <text x="60" y="68" font-family="'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="900" fill="white" text-anchor="middle" letter-spacing="2">NASA</text>
+</svg>
